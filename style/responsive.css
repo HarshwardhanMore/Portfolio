@@ -567,7 +567,7 @@
     }
 
     .main .team .info .sub-info>*{
-        width: 45%;
+        width: 40%;
         /* width: 100px; */
         margin: 2% 2%;    
     }
@@ -621,3 +621,12 @@
     
     
 }
+
+
+/* @media screen and (min-width: 10px) and (max-width: 470){
+    
+    .front .intro .part1 >.info .name{
+        font-size: 25px;
+        font-weight: bold;
+    }    
+} */

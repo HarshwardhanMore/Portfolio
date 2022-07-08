@@ -87,13 +87,16 @@ body{
 .front{
     width: 100%;
     height: 100vh;
+    background: var(--col4);
+    display: flex;
+    flex-direction: column;
 }
 .front .Navbar{
     display: none;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    width: 100vw;
+    width: 100%;
     height: 12%;
     border: 0px;
     position:fixed;
@@ -154,24 +157,26 @@ body{
 /* FRONT INTRO */
 
 .front .intro{
-    z-index: 20;
-    width: 100%;
+    /* z-index: 20; */
+    width: 84%;
     height: 100%;
     display: flex;
     flex-direction: row;
-    background: url('../images/background3.png');
-    background: var(--col4);
+    align-self: center;
+    color: var(--col3);
+    /* background: url('../images/background3.png'); */
+    /* background: var(--col3); */
 }
 .front .intro .part1{
     height: 100%;
     /* width: 50%; */
-    width: auto;
+    width: 60%;
     margin: 0px;
     border: 0px;
-    background: var(--col4);
+    /* background: var(--col4); */
     background: transparent;
-    color: var(--col3);
-
+    /* color: var(--col3); */
+    /* background-color: green; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -182,8 +187,10 @@ body{
     /* background-color: red; */
 }
 .front .intro .part1 >.info{
-    margin: 0% 8% 0% 16%;
+    /* margin: 0% 8% 0% 16%; */
     /* background-color: red; */
+    width: 80%;
+    /* background-color: black; */
 }
 
 .front .intro .part1 >.info .name{
@@ -258,7 +265,7 @@ body{
 
 .front .intro .part2{ 
     height: 100%;
-    width: 55%;
+    width: 40%;
     padding: 0px;
     margin: 0px;
     border: 0px;
@@ -266,10 +273,11 @@ body{
     background: transparent;
     
     
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items:flex-start;
+    align-items:center;
     text-align: right;
 }
 .front .intro .part2 .info{
