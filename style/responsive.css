@@ -275,9 +275,9 @@
     .front .nav> ul{
         width: 100%;
     }
-}
+/* }
 
-@media screen and (max-width: 550px){
+@media screen and (min-width: 550px){ */
 
     .front .Navbar{
         display: none;
@@ -292,7 +292,8 @@
 
 
 
-@media screen and (min-width: 200px) and (max-width: 640px){
+/* @media screen and (min-width: 10px) and (max-width: 640px){ */
+@media screen and (min-width: 10px) and (max-width: 550px){
 
     
     .front .Navbar{
