@@ -298,6 +298,7 @@
     
     .front .Navbar{
         display: none;
+        visibility: hidden;
     }
     
     .main .resume .tools{
@@ -558,6 +559,28 @@
         /* position: sticky;
         top: 0px;
         left: 0px; */
+    }
+
+    .main .team .info .sub-info>*{
+        width: 45%;
+        /* width: 100px; */
+        margin: 2% 2%;    
+    }
+    .main .team .team-card .name{
+        font-size: 18px;
+        text-align: center;
+        font-weight: bold;
+    }
+    .main .team .team-card .field{
+        color: var(--col5);
+        /* font-weight: bold; */
+        /* margin-bottom: 10px; */
+    }
+    .main .team .team-card{
+        padding: 5px;
+    }
+    .main .team .team-card>*{
+        margin: 3px 0px;
     }
     .main .team .team-card .follow{
         display: none;
