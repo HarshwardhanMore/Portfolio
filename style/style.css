@@ -486,12 +486,12 @@ body{
     
     padding: 15px;
 
-    border-top: 15px solid var(--col4);
-    border-right: 15px solid var(--col4);
+    border-top: 10px solid var(--col4);
+    border-right: 10px solid var(--col4);
     /* border-bottom: 10px solid var(--col3);
     border-left: 10px solid var(--col3); */
-    border-bottom: 15px solid var(--col4);
-    border-left: 15px solid var(--col4);
+    border-bottom: 10px solid var(--col4);
+    border-left: 10px solid var(--col4);
     border-radius: 1000px;
 
 }
