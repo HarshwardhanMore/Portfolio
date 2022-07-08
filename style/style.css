@@ -324,11 +324,20 @@ body{
     text-align: right;
     align-self: center;
 }
-.about .info .myself .part2 .mydetails{
-    width: 50%;
+.about .info .myself .part2 .quotes{
     font-size: 20px;
 }
-
+.about .info .myself .part2 .quotes .key{
+    font-size: 25px;
+    display: inline;
+}
+.about .info .myself .part2 .mydetails{
+    font-size: 18px;
+}
+.about .info .myself .part2 .mydetails .key{
+    color: var(--col5);
+    font-weight: 500;
+}
 
 /* PORTFOLIO */
 
@@ -717,12 +726,14 @@ body{
     
 }
 .main .resume .skills .sub-info .part1{
-    height: 50vh;
-    width: 35%;
+    height: 66vh;
+    width: 40%;
 }
 .main .resume .skills .sub-info .part2{
+    height: 66vh;
     width: 60%;
-    background: url('../images/skills.jpg');
+    
+    background: url('../images/web-development.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;

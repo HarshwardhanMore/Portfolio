@@ -87,7 +87,7 @@ document.getElementById("web-beauty").addEventListener("mouseover", function(){
     document.getElementById("web-beauty").style.transition="all";
     document.getElementById("web-beauty").style.transitionDuration="0.3s";
     
-    document.getElementById("skill-part2").style.background="url('../images/web-frontend2.png')";
+    document.getElementById("skill-part2").style.background="url('../images/web-frontend.jpg')";
     document.getElementById("skill-part2").style.backgroundSize="contain"
     document.getElementById("skill-part2").style.backgroundPosition="center"
     document.getElementById("skill-part2").style.backgroundRepeat="no-repeat"
@@ -103,7 +103,10 @@ document.getElementById("web-beauty").addEventListener("mouseout", function(){
     document.getElementById("web-beauty").style.transition="all";
     document.getElementById("web-beauty").style.transitionDuration="0.3s";
 
-    document.getElementById("skill-part2").style.background="url('../images/background.png')";
+    document.getElementById("skill-part2").style.background="url('../images/web-development.png')";
+    document.getElementById("skill-part2").style.backgroundSize="contain"
+    document.getElementById("skill-part2").style.backgroundPosition="center"
+    document.getElementById("skill-part2").style.backgroundRepeat="no-repeat"
 
 });
 
@@ -116,7 +119,7 @@ document.getElementById("web-frontend").addEventListener("mouseover", function()
     document.getElementById("web-beauty").style.transition="all";
     document.getElementById("web-beauty").style.transitionDuration="0.3s";
 
-    document.getElementById("skill-part2").style.background="url('../images/web-frontend.png')";
+    document.getElementById("skill-part2").style.background="url('../images/web-frontend2.png')";
     document.getElementById("skill-part2").style.backgroundSize="contain"
     document.getElementById("skill-part2").style.backgroundPosition="center"
     document.getElementById("skill-part2").style.backgroundRepeat="no-repeat"
@@ -131,7 +134,10 @@ document.getElementById("web-frontend").addEventListener("mouseout", function(){
     document.getElementById("web-frontend").style.transition="all";
     document.getElementById("web-frontend").style.transitionDuration="0.3s";
 
-    document.getElementById("skill-part2").style.background="url('../images/background.png')";
+    document.getElementById("skill-part2").style.background="url('../images/web-development.png')";
+    document.getElementById("skill-part2").style.backgroundSize="contain"
+    document.getElementById("skill-part2").style.backgroundPosition="center"
+    document.getElementById("skill-part2").style.backgroundRepeat="no-repeat"
 });
 
 // 3
@@ -143,7 +149,10 @@ document.getElementById("web-backend").addEventListener("mouseover", function(){
     document.getElementById("web-beauty").style.transition="all";
     document.getElementById("web-beauty").style.transitionDuration="0.3s";
 
-    document.getElementById("skill-part2").style.background="url('../images/background3.png')";
+    document.getElementById("skill-part2").style.background="url('../images/web-backend.jpg')";
+    document.getElementById("skill-part2").style.backgroundSize="contain"
+    document.getElementById("skill-part2").style.backgroundPosition="center"
+    document.getElementById("skill-part2").style.backgroundRepeat="no-repeat"
 });
 
 document.getElementById("web-backend").addEventListener("mouseout", function(){
@@ -154,7 +163,10 @@ document.getElementById("web-backend").addEventListener("mouseout", function(){
     document.getElementById("web-backend").style.transition="all";
     document.getElementById("web-backend").style.transitionDuration="0.3s";
 
-    document.getElementById("skill-part2").style.background="url('../images/background.png')";
+    document.getElementById("skill-part2").style.background="url('../images/web-development.png')";
+    document.getElementById("skill-part2").style.backgroundSize="contain"
+    document.getElementById("skill-part2").style.backgroundPosition="center"
+    document.getElementById("skill-part2").style.backgroundRepeat="no-repeat"
 });
 
 // 4
@@ -166,7 +178,10 @@ document.getElementById("uiux").addEventListener("mouseover", function(){
     document.getElementById("web-beauty").style.transition="all";
     document.getElementById("web-beauty").style.transitionDuration="0.3s";
 
-    document.getElementById("skill-part2").style.background="url('../images/background2.png')";
+    document.getElementById("skill-part2").style.background="url('../images/skills.jpg')";
+    document.getElementById("skill-part2").style.backgroundSize="contain"
+    document.getElementById("skill-part2").style.backgroundPosition="center"
+    document.getElementById("skill-part2").style.backgroundRepeat="no-repeat"
 });
 
 document.getElementById("uiux").addEventListener("mouseout", function(){
@@ -177,7 +192,10 @@ document.getElementById("uiux").addEventListener("mouseout", function(){
     document.getElementById("uiux").style.transition="all";
     document.getElementById("uiux").style.transitionDuration="0.3s";
 
-    document.getElementById("skill-part2").style.background="url('../images/background.png')";
+    document.getElementById("skill-part2").style.background="url('../images/web-development.png')";
+    document.getElementById("skill-part2").style.backgroundSize="contain"
+    document.getElementById("skill-part2").style.backgroundPosition="center"
+    document.getElementById("skill-part2").style.backgroundRepeat="no-repeat"
 });
 
 
