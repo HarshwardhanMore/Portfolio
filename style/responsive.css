@@ -372,11 +372,12 @@
         
     }
     
-
+    
 
     .main .portfolio .about .sub-info .part2{
         width: 100%;
         padding: 0px;
+        margin: 0px;
         text-align: justify;
     }
     .main .portfolio .about .sub-info .part2 .headline{
