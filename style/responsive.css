@@ -294,7 +294,6 @@
 
 /* @media screen and (min-width: 10px) and (max-width: 640px){ */
 @media screen and (min-width: 10px) and (max-width: 550px){
-
     
     .front .Navbar{
         display: none;
@@ -314,14 +313,38 @@
         height: 90%;
         background-color: var(--col3);
     }
-    .front .intro .part2 {
-        display: none;
+ 
+
+
+
+    .front{
+        width: 100%;
     }
-    
+    .front .intro{
+        width: 84%;
+    }
     .front .intro .part1 {
         height: auto;
         width: 100%;
     }
+    .front .intro .part1 >.info{
+        width: 100%;
+    }
+    .front .intro .part2 {
+        display: none;
+    }
+    
+    .front .intro .part1 >.info .buttons .downloadcv{
+        display: none;
+    }
+    
+    .front .intro .part1 >.info .buttons>*{
+        font-size: 17px;
+        padding: 8px 15px;
+        border-radius: 5px;
+        margin-right: 10px;
+    }
+    
 
     /* About */
 
@@ -604,11 +627,16 @@
     }
         
     .main .contact .heading +.details{
-        font-size: 35px;
+        font-size: 25px;
         font-weight: 600;
         margin: 5px 0px 0px 0px;
         color: var(--col3);
         width: 80%;
+    }
+    
+    .main .contact .links img{
+        width: 35px;
+        
     }
 
 
@@ -622,11 +650,3 @@
     
 }
 
-
-/* @media screen and (min-width: 10px) and (max-width: 470){
-    
-    .front .intro .part1 >.info .name{
-        font-size: 25px;
-        font-weight: bold;
-    }    
-} */
