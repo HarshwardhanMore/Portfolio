@@ -346,10 +346,10 @@
         display: flex;
         justify-content: flex-end;
         align-self: center;
-        border-top: 20px solid var(--col3);
+        /* border-top: 20px solid var(--col3);
         border-right: 20px solid var(--col3);
         border-bottom: 20px solid var(--col5);
-        border-left: 20px solid var(--col5);
+        border-left: 20px solid var(--col5); */
         border-radius: 1000px;
     
     
@@ -361,10 +361,7 @@
         
         padding: 10px;
     
-        border-top: 10px solid var(--col4);
-        border-right: 10px solid var(--col4);
-        border-bottom: 10px solid var(--col3);
-        border-left: 10px solid var(--col3);
+        border-width: 10px;
         border-radius: 1000px;
     
     }
