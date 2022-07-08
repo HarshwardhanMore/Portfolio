@@ -376,7 +376,14 @@
 
     .main .portfolio .about .sub-info .part2{
         width: 100%;
-    }    
+        padding: 0px;
+        text-align: justify;
+    }
+    .main .portfolio .about .sub-info .part2 .headline{
+        font-size: 35px;
+        margin: 20px 0px 0px 0px;
+    }
+
     .main .portfolio .about .info>*{
         width: 100%;
         margin: 10px 0px 25px 0px;
